@@ -1,0 +1,33 @@
+{
+  "name": "object-html-scrubber",
+  "version": "1.0.0",
+  "description": "strip out html tags from strings nested in javascript objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchellst/object-html-scrubber.git"
+  },
+  "keywords": [
+    "json",
+    "html",
+    "parse"
+  ],
+  "author": "Mitchell Stoutin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitchellst/object-html-scrubber/issues"
+  },
+  "homepage": "https://github.com/mitchellst/object-html-scrubber#readme",
+  "devDependencies": {
+    "ava": "^0.16.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "escape-html": "^1.0.3",
+    "lodash.isstring": "^4.0.1",
+    "object-comb": "^1.0.2"
+  }
+}
